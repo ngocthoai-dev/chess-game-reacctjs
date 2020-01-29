@@ -1,0 +1,16 @@
+.blackWhiteBoard {	
+	position: absolute;
+	top: 10vh;
+	left: 10vh;
+}
+
+.blackWhiteBoard ul {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+}
+
+.blackWhiteBoard ul li {
+	list-style-type: none;
+}

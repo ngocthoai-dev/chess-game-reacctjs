@@ -1,0 +1,84 @@
+.App-header {
+  padding: 10px;
+  float: right;
+}
+
+.App-logo {
+  height: 10vh;
+  /*pointer-events: none;*/
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.coordinates {
+  position: relative;
+}
+
+.coordinates ul {
+  list-style-type: none;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+.coordinates .alphabet {
+  top: 10vh;
+  left: 90vh;
+  background-image: radial-gradient(white 60%, blue);
+  border-bottom-right-radius: 5vh;
+  border-top-right-radius: 5vh;
+}
+
+.coordinates .alphabet.first {
+  left: 0;
+  border-bottom-left-radius: 5vh;
+  border-top-left-radius: 5vh;
+  border-bottom-right-radius: 0vh;
+  border-top-right-radius: 0vh;
+}
+
+.coordinates .alphabet li {
+  text-align: center;
+  height: 10vh;
+  line-height: 10vh;
+  width: 10vh;
+  font-weight: bold;
+}
+
+.coordinates .digit {
+  left: 10vh;
+  top: 90vh;
+  background-image: radial-gradient(white 60%, blue);
+  border-bottom-left-radius: 5vh;
+  border-bottom-right-radius: 5vh;
+}
+
+.coordinates .digit.first {
+  top: 0;
+  border-bottom-left-radius: 0vh;
+  border-bottom-right-radius: 0vh;
+  border-top-left-radius: 5vh;
+  border-top-right-radius: 5vh;
+}
+
+.coordinates .digit li {
+  float: left;
+  text-align: center;
+  height: 10vh;
+  line-height: 10vh;
+  width: 10vh;
+  font-weight: bold;
+}

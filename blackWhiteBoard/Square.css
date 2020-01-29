@@ -1,0 +1,9 @@
+.chess-place {
+	background-color: white;
+	width: 10vh;
+	height: 10vh;
+}
+
+.chess-place.blue {
+	background-color: rgb(0, 0, 255, 0.5);
+}

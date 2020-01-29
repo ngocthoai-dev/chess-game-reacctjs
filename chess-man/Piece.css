@@ -1,0 +1,19 @@
+.man {
+	width: 10vh;
+	height: 10vh;
+	text-align: center;
+	position: absolute;
+	opacity: 0.8;
+}
+
+.man:hover {
+	opacity: 1;
+}
+
+.man.selected {
+	opacity: 0.4;
+}
+
+.man.dead {
+	display: none;
+}
